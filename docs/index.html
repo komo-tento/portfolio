@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Otsuma-Portfolio-Sample</title>
+    <title>Komo-Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -34,7 +34,23 @@
                                         <h5 class="p-1">Name</h5>
                                     </td>
                                     <td>
-                                        <h5 class="p-1">萩本 新平 - Shinpei Hagimoto -</h5>
+                                        <h5 class="p-1">瀧澤　琴萌 - Komo Takizawa -</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5 class="p-1">Departmental affiliation</h5>
+                                    </td>
+                                    <td>
+                                        <h5 class="p-1">武蔵野大学データサイエンス学部データサイエンス学科</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5 class="p-1">Like</h5>
+                                    </td>
+                                    <td>
+                                        <h5 class="p-1">読書・動画鑑賞</h5>
                                     </td>
                                 </tr>
                                 <tr>
@@ -42,26 +58,7 @@
                                         <h5 class="p-1">Hobby</h5>
                                     </td>
                                     <td>
-                                        <h5 class="p-1">ギター(弾き語り), 料理, お酒</h5>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h5 class="p-1">Like.</h5>
-                                    </td>
-                                    <td>
-                                        <h5 class="p-1">炭酸水, 鶏むね肉, 山</h5>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h5 class="p-1">最近の悩み</h5>
-                                    </td>
-                                    <td>
-                                        <h5 class="p-1">
-                                            ダイエットしても全然体重減らない、むしろ増えてる。<br> <!-- 改行するときは <br> -->
-                                            そんなことよりチョコビって美味しいよね。<br>
-                                        </h5>
+                                        <h5 class="p-1">小説や詩を書くこと・現在ゲーム制作に挑戦中</h5>
                                     </td>
                                 </tr>
                             </tbody>
@@ -75,12 +72,11 @@
                         <div class="card h-100 p2">
                             <img src="./unDraw_soccer.png" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
-                                <h5 class="border-bottom">学生時代</h5>
+                                <h5 class="border-bottom">研究内容</h5>
                                 <p>
-                                    小学校・中学校・高校とサッカー部に所属。<br>
-                                    ゴールキーパーをやってました。
-                                    こんなこと頑張りましたよとか、こういう挫折があったけどなんとか頑張りました的な。
-                                    例を考えようかと思ったけど苦手なのでできませんでした。こんにちは。
+                                    読者をフロー状態に導くための拡散モデルを用いたVR空間生成手法<br>
+                                        小説の文章を段落ごとに分割し、大規模言語モデルで拡散モデルに入力するためのプロンプトに変更させ、そのプロンプトを既存の拡散モデルに入力することでVR空間画像を確立しました。
+                                        今後は画像の自動切り替えや文章の読み上げなどを検討しています。
                                 </p>
                             </div>
                         </div>
@@ -89,12 +85,10 @@
                         <div class="card h-100 p2">
                             <img src="./undraw_pc.png" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
-                                <h5 class="border-bottom">大学院生活</h5>
+                                <h5 class="border-bottom">実績</h5>
                                 <p>
-                                    この4月から大学院に入りまして。学部時代とあんまり変わらない生活をしおります。
-                                    なんだかんだバイトしたり課題をこなしたり研究をしたり。
-                                    日々パソコンに向かって腰を痛めながら生活しております。
-                                    どうもおはようございます。
+                                    2023年2月に大学内で行われた未来創造PJ企業発表会にて研究発表を行い、企業賞をいただきました。<br>
+                                    2023年7月にマルチメディア、分散、協調とモバイル DICOMO 2023 シンポジウムにて論文発表をさせていただきました。
                                 </p>
                             </div>
                         </div>
@@ -103,27 +97,10 @@
                         <div class="card h-100 p2">
                             <img src="./undraw_Social_media.png" class="card-img-top" alt="thumbnail">
                             <div class="card-body">
-                                <h5 class="border-bottom mb-3">SNS</h5>
-                                <a class="btn btn-primary" id="sns_links" href="#">Twitter</a>
-                                <p>もし頻繁に更新をしていたり、割とSNSに力を入れていたりしたらアピールポイントになる(こともある。知らんけど)</p>
-                                <a class="btn btn-primary" id="sns_links" href="#">Instagram</a>
-                                <p>リンク貼り付けて飛ぶことができるようにすると良い、別ページで開くためには target='_blank' を書き足す。</p>
-                                <a class="btn btn-primary" id="sns_links" href="">YouTube</a>
-                                <p>YouTueなんかもアピールになるんじゃないかと。動画編集とか。tiktokとかも。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 p2">
-                            <img src="./undraw_friendship.png" class="card-img-top" alt="thumbnail">
-                            <div class="card-body">
-                                <h5 class="border-bottom mb-3">cardのヘッダ画像</h5>
-                                <p>
-                                    カードのヘッダ画像はわしが愛用してる unDraw というサイトのもの。なんだかんだ種類が多くシンプルかつ綺麗なイラストで気に入ってる。<br>
-                                    商用利用okのものなので公開するときもそのまま使える(はず)。他にも商用利用okなイラストサイトは多くあるのでそういうところから見つけてくると、自分のサイトに統一感が出たり良い感じになる。と思う。
-                                </p>
-                                <a class="btn btn-primary" href="https://undraw.co/illustrations"
-                                    target="_blank">unDraw</a>
+                                <h5 class="border-bottom mb-3">お問い合わせ</h5>
+                                <ul>
+                                    <li>s2222078[at]stu.musashino-u.ac.jp</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -135,7 +112,7 @@
     <footer class="footer mt-auto text-center p-1" style="background-color: #008F7E;">
         <div class="container my-2">
             <p class="text-center" style="color: #ffffff;">
-                ©︎ 2023 Shinpei-Hagimoto<br>
+                 ©︎2023 Komo Takizawa<br>
             </p>
         </div>
     </footer>
